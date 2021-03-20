@@ -7,7 +7,6 @@ const auth = require('../middleware/auth');
 const { findByIdAndUpdate } = require('../models/user');
 
 
-
 router.get('/',(req,res)=>{
     res.send("<h1>Hello </h1>")
 })
